@@ -1,0 +1,30 @@
+.card .hovercard {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: translateY(50px) scale(0.8);
+  transition: all 0.6s ease-in-out;
+}
+
+.card:hover .hovercard {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.card .hovercard img {
+  max-width: 150px;
+  max-height: 150px;
+  object-fit: contain;
+  opacity: 0;
+  transform: translateY(30px) scale(0.8);
+  transition: all 0.6s ease-in-out;
+}
+
+.card:hover .hovercard img {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition-delay: 0.2s; /* ✅ sirf hover kiye gaye card ke liye delay lagega */
+}

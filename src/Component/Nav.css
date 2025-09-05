@@ -1,0 +1,8 @@
+.active-link {
+  color: #22d3ee; /* Tailwind cyan-400 */
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: #22d3ee;
+}
+
+                                  

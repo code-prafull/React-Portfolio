@@ -10,3 +10,33 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# 🌐 Prafull Singh — Web Developer Portfolio
+> 🎯 Shows projects, skills, and contact info.
+
+---
+
+## 🔗 Live Demo
+👉 [View Portfolio](https://portfolio-prafull.netlify.app/)  
+
+
+This portfolio highlights my projects, technical skills, and journey in tech.
+
+---
+
+## ✨ Features
+- Responsive design (works on mobile & desktop)
+- Modern animations (GSAP / Framer Motion)
+- Sections: Home, About, Skills, Projects, Contact
+- Project cards with GitHub & Live Demo links
+- Smooth scrolling navbar
+- Contact form integration
+
+---
+
+## 🧰 Tech stack
+- **Frontend:** HTML, CSS, JavaScript, React.js
+- **Styling:** Tailwind CSS / Custom CSS
+- **Libraries:** GSAP, React Router, Framer Motion
+- **Deployment:** GitHub Pages / Netlify / Vercel
+
